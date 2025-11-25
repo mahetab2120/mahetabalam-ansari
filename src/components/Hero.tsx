@@ -1,10 +1,8 @@
 import { Github, Linkedin, Mail, Phone, MapPin, Download } from 'lucide-react';
-import { downloadResume } from '../utils/generateResume';
+//import { downloadResume } from '../utils/generateResume';
 
 const Hero = () => {
-  const handleDownloadResume = () => {
-    downloadResume();
-  };
+
 
   return (
     <section id="home" className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
@@ -29,7 +27,7 @@ const Hero = () => {
             <div className="flex flex-wrap gap-4 text-slate-600">
               <div className="flex items-center gap-2">
                 <MapPin size={18} />
-                <span>Gujarat, India</span>
+                <span>Chandigarh, India</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone size={18} />
@@ -46,13 +44,15 @@ const Hero = () => {
                 Get In Touch
               </a>
 
-              <button
-                onClick={handleDownloadResume}
-                className="inline-flex items-center gap-2 bg-white text-slate-900 px-6 py-3 rounded-lg border-2 border-slate-900 hover:bg-slate-900 hover:text-white transition-colors font-medium"
-              >
-                <Download size={20} />
-                Download Resume
-              </button>
+              <a href="https://tinyurl.com/mahetabalam" download target="_blank">
+  <button
+    className="inline-flex items-center gap-2 bg-white text-slate-900 px-6 py-3 rounded-lg border-2 border-slate-900 hover:bg-slate-900 hover:text-white transition-colors font-medium"
+  >
+    <Download size={20} />
+    Download Resume
+  </button>
+</a>
+
             </div>
 
             <div className="flex gap-4">

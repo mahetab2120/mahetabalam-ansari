@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Linkedin, Github, Send } from 'lucide-react';
+import { Mail, Phone, MapPin, Globe, Send } from 'lucide-react';
 
 const Contact = () => {
   const handleEmailClick = () => {
@@ -62,7 +62,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-slate-900 mb-1">Location</h3>
-                  <p className="text-slate-600">Gujarat, India</p>
+                  <p className="text-slate-600">Chandigarh, India</p>
                 </div>
               </div>
             </div>
@@ -70,11 +70,12 @@ const Contact = () => {
             <div className="bg-gradient-to-br from-slate-50 to-white rounded-xl p-6 border border-slate-200">
               <div className="flex items-start gap-4">
                 <div className="p-3 bg-slate-100 rounded-lg">
-                  <Linkedin size={24} className="text-slate-700" />
+                  <Globe size={24} className="text-slate-700" />
                 </div>
                 <div className="flex-1">
                   <h3 className="font-semibold text-slate-900 mb-1">Social</h3>
                   <div className="flex gap-3">
+                    
                     <a
                       href="https://www.linkedin.com/in/mahetabalam-ansari"
                       target="_blank"
@@ -84,6 +85,7 @@ const Contact = () => {
                       LinkedIn
                     </a>
                     <span className="text-slate-300">•</span>
+                    
                     <a
                       href="https://github.com/mahetab2120"
                       target="_blank"

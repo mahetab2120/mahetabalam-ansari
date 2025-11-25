@@ -1,29 +1,30 @@
-import { Folder, ExternalLink } from 'lucide-react';
+import { Folder } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
     {
-      title: 'ABHA API Integration',
-      year: '2024',
+      title: 'StockMaster ERP Lite',
+      year: '2020',
       description:
-        'Integrated ABHA registration and verification into hospital workflow, automating data fetch and verification, cutting manual entry by 70%.',
-      technologies: ['ASP.NET MVC', 'REST APIs', 'Postman', 'SQL Server'],
+        'Built a desktop-based inventory and billing system using WinForms and Crystal Reports, used daily by 5+ users to manage over 2000 stock items',
+      technologies: ['C#', '.NET Framework', 'WinForms', 'Crystal Reports','ADO.NET','SQL Server'],
       highlights: [
-        'Seamless integration with hospital EMR system',
-        '70% reduction in manual data entry',
-        'Real-time patient verification',
-      ],
+  'Automated billing workflows, reducing manual calculation time by 60%',
+  'Added employee access control, lowering administrative workload by 40%',
+  'Implemented structured data forms and validations, resulting in a 70% reduction in manual data entry errors'
+]
+,
     },
     {
-      title: 'Dietician App',
-      year: '2025',
+      title: 'coin-bounce',
+      year: '2023',
       description:
-        'Created a full-stack web app for patient diet planning and report generation with integrated frontend UI, backend API, and reporting module.',
-      technologies: ['React.js', 'ASP.NET Web API', 'Crystal Reports', 'SQL Server'],
+        'Created a full-stack web app MERN blog platform supporting 100+ posts and over 300 user interactions',
+      technologies: ['React.js', 'Node.js', 'MongoDB', 'Express.js', 'JWT'],
       highlights: [
-        'Dynamic diet plan generation',
-        'Real-time patient data sync',
-        'Automated report generation',
+        'Implemented secure CRUD operations with JWT authentication and role-based access control',
+  'Added real-time commenting using WebSockets, improving user engagement and interaction flow',
+  'Optimized MongoDB queries and API structure, achieving a 30% improvement in response speed'
       ],
     },
   ];

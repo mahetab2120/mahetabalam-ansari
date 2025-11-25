@@ -3,15 +3,15 @@ import { Briefcase, Calendar } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      title: 'Software Engineer',
+      title: 'Full Stack Developer',
       company: 'Tata Memorial Centre Punjab',
       period: 'Jul 2024 - Present',
       responsibilities: [
-        'Maintaining and upgrading Hospital EMR and Website built in ASP.NET MVC and Web Forms',
-        'Designed and integrated ABHA (Ayushman Bharat Health Account) module using ASP.NET MVC and Postman, automating patient data fetch, creation, and verification',
-        'Built Tender Tracking System for Purchase Department using ASP.NET MVC + Crystal Reports, improving procurement visibility and tracking on GeM portal',
-        'Developed Dietician Web App using React + ASP.NET Web API, integrating Crystal Reports for dynamic diet reporting',
-        'Conducted user training sessions and stakeholder demos to improve usability and adoption',
+        'Maintained and upgraded the Hospital EMR and Website built in ASP.NET MVC and Web Forms, improving system stability by 30% and reducing user-reported issues by 40%.',
+        'Designed and integrated the ABHA (Ayushman Bharat Health Account) module using ASP.NET MVC and Postman, automating patient data fetch/creation/verification and reducing manual entry time by 70%.',
+        'Developed API integration for Teleradiology Reporting, enabling seamless report exchange between the EMR and external radiology service providers, reducing turnaround time by 45%.',
+        'Developed a Dietician Web App using React + ASP.NET Web API, enabling automated diet reporting through Crystal Reports and reducing report preparation time from 30 minutes to under 2 minutes.',
+        'Conducted training sessions and stakeholder demos for 50+ staff members, boosting adoption and reducing support queries by 35%.',
       ],
     },
     {
@@ -19,9 +19,9 @@ const Experience = () => {
       company: 'Tata Memorial Centre Punjab',
       period: 'April 2024 - Jul 2024',
       responsibilities: [
-        'Assisted in maintaining and debugging EMR system built with ASP.NET MVC',
-        'Enhanced patient registration and reporting modules using C# and SQL Server',
-        'Supported integration testing and user acceptance for newly deployed hospital systems',
+        'Assisted in maintaining and debugging the EMR system built with ASP.NET MVC, improving system responsiveness by 20% and reducing recurring issues by 30%.',
+        'Enhanced patient registration and reporting modules using C# and SQL Server, improving data accuracy and reducing form submission errors by 25%.',
+        'Supported integration testing and user acceptance for newly deployed hospital systems, helping achieve a 95% UAT pass rate and reducing post-deployment issues by 40%.',
       ],
     },
   ];
