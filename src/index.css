@@ -27,6 +27,18 @@ body {
 
 
 
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-shimmer {
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+
 /* ========================================= */
 /*              Animations                   */
 /* ========================================= */

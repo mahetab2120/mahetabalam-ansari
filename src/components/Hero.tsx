@@ -1,7 +1,9 @@
 import { Github, Linkedin, Mail, Phone, MapPin, Download } from 'lucide-react';
 import ProImg from '../assets/ma.png';
-
+import { useState } from 'react';
 const Hero = () => {
+  const [loaded, setLoaded] = useState(false);
+
   return (
     <section
       id="home"
@@ -129,11 +131,18 @@ const Hero = () => {
               {/* Photo frame */}
               <div className="relative rounded-2xl overflow-hidden border-4 border-white/90 dark:border-slate-900/80 shadow-xl">
                 {ProImg ? (
+                  <>{/* Skeleton */}
+      {!loaded && (
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-300 via-slate-200 to-slate-300 dark:from-slate-700 dark:via-slate-600 dark:to-slate-700 animate-shimmer" />
+
+      )}
                   <img
                     src={ProImg}
                     alt="Mahetabalam Ansari"
+                    onLoad={() => setLoaded(true)}
                     className="w-full h-auto object-contain aspect-square grayscale-[15%] hover:grayscale-0 transition-all duration-500"
                   />
+                  </>
                 ) : (
                   <div className="w-full aspect-square bg-gradient-to-br from-slate-700 to-slate-900 flex items-center justify-center text-white text-6xl font-bold">
                     MA
