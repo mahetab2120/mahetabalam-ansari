@@ -23,13 +23,7 @@ const Contact = () => {
   };
 
   const contactItems: ContactItem[] = [
-    {
-      icon: Mail,
-      title: 'Email',
-      value: 'Quick Mail',
-      action: () => window.location.href = 'mailto:mahetabansari421@gmail.com',
-      color: 'hover:text-indigo-600 dark:hover:text-indigo-400',
-    },
+    
     {
       icon: Phone,
       title: 'Phone',
@@ -100,7 +94,7 @@ const Contact = () => {
         </div>
 
         {/* Contact Cards */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-6 mb-12">
           {contactItems.map((item, index) => (
             <div
               key={index}

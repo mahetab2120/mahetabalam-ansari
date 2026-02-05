@@ -87,7 +87,7 @@ const Education = () => {
                 </div>
 
                 <div className="flex-1">
-                  <h3 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-slate-100 group-hover:text-indigo-700 dark:group-hover:text-indigo-300 transition-colors mb-2">
+                  <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100 group-hover:text-indigo-700 dark:group-hover:text-indigo-300 transition-colors mb-2">
                     {edu.degree}
                   </h3>
 

@@ -1,4 +1,4 @@
-import { Heart, Github, Linkedin, Coffee } from 'lucide-react';
+import { Github, Linkedin, Coffee } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="relative max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 text-center md:text-left">
           {/* Left - Made with love */}
-          <div className="flex items-center gap-3 text-lg">
+          {/* <div className="flex items-center gap-3 text-lg">
             <span className="text-slate-400">Crafted with</span>
             <Heart
               size={20}
@@ -23,7 +23,7 @@ const Footer = () => {
             <span className="font-medium text-slate-200">
               by Mahetabalam Ansari
             </span>
-          </div>
+          </div> */}
 
           {/* Center - Social + Coffee */}
           <div className="flex items-center gap-6">
