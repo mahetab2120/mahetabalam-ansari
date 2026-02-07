@@ -96,17 +96,7 @@ const Education = () => {
                   </p>
 
                   <div className="flex flex-wrap items-center gap-4 text-base">
-                    <span
-                      className={`
-                        inline-flex items-center px-4 py-1.5
-                        bg-gradient-to-r from-slate-100/90 to-slate-200/70 dark:from-slate-800/80 dark:to-slate-700/70
-                        text-slate-800 dark:text-slate-200 font-medium
-                        rounded-full border border-slate-300/60 dark:border-slate-700/50
-                        shadow-sm
-                      `}
-                    >
-                      {edu.gpa}
-                    </span>
+                    
 
                     <div className="flex items-center gap-2 text-slate-600 dark:text-slate-400">
                       <Calendar size={18} />

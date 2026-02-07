@@ -184,7 +184,7 @@ const Contact = () => {
         </div>
         <span
           className="
-            absolute -top-10 right-0 bg-green-600 text-white text-xs px-3 py-1.5 
+            absolute bottom-0 right-16 bg-green-600 text-white text-xs px-3 py-1.5 
             rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300
             whitespace-nowrap shadow-md
           "
